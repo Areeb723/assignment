@@ -1,0 +1,52 @@
+ *{background-color: black;}
+ .nav{display: flex;
+background-color: black;}
+
+
+
+.nav ul{display: flex;
+list-style: none;
+gap: 10px ;}
+
+.nav ul li{position: relative;
+    right: -500px;
+    color: white;
+    padding: 10px;
+}
+.nav img{width: 200px;
+}
+.img{
+   
+    
+   margin-right: 70px;
+   margin-left: 75px;
+}
+.ab p{     color: white;
+    font-size: 16px;
+    font-family: "Montserrate";
+    padding-right: 150px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+
+    .ab h2{color: white;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: sans-serif;
+    }
+.container{display: flex;
+}
+
+.monkey1 img{height: 250px;
+width: 250px;
+position: relative;
+right: -800px;
+bottom: 200px;
+
+}
+
+.monkey2 img{height: 300px;
+width: 300px;
+display:block;
+}
