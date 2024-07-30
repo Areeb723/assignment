@@ -235,41 +235,69 @@ width: 150px;}
                                                             }
                                                             b{color: white;}
     
-                                                            /* Small devices (portrait tablets and large phones, 600px and up) */
-                                                            @media only screen and (min-width: 600px) {
-                                                                #adc{
-                                                                    display: flex;
-                                                                        flex-direction: row;
-                                                                        justify-content: end;
-                
-                                                                    
-                                                                }
-                                                            }
-                                                            
-                                                            /* Medium devices (landscape tablets, 768px and up) */
-                                                            @media only screen and (min-width: 768px) {
-                                                                .q{
-                                                                    
-                                                                }
-                                                            }
-                                                            
-                                                            /* Large devices (laptops/desktops, 992px and up) */
-                                                            @media only screen and (min-width: 992px) {
-                                                                body{
-                                                                    
-                                                                }
-                                                            }
-                                                            
-                                                            /* Extra large devices (large laptops and desktops, 1200px and up) */
-                                                            @media only screen and (min-width: 1200px) {
-                                                                #adc{
-                                                                    display: flex;
-                                                                        flex-direction: column;
-                                                                       
-                
-                                                                    
                                                                 
+                                                             
+                                                            @media only screen and (min-width: 600px) 
+                                                             { body{width: 1000px;
+                                                            
+                                                        }
+                                                
+                                                                #adc img{height: 800px;}
+                                                                .ai{display: flex;
+                                                                flex-direction: column;}
+                                                            }
+
+                                                        
+
+                                                        .aj{display: flex;
+                                                            flex-direction: column;
+                                                            height: 600px;
+                                                        }
+                                                        .ah{display: flex;
+                                                        flex-direction: column;}
+
+                                                        .ak {flex-direction: column;}
+                                                        .ak img{width: 400px;
+                                                        }
+                                                        .ab{flex-direction: column;
+                                                        }
+                                                            
+                                                          
+                                                            @media only screen and (min-width: 768px) {
+                                                              
+                                                                } body{flex-direction: column;
+                                                                justify-content: center;
+                                                            align-items: center;}
+                                                            
+                                                            
+                                                            
+                                                            @media only screen and (min-width: 992px) {
+                                                               body{width: 1300px;}
+
+                                                               .ai{flex-direction: row;
+                                                            align-items: center;
+                                                        justify-content: center;
+                                                    gap: 100px;}
+
+                                                               .ai p{width: 100px;
+                                                                margin: 0px;}
+                                                              .ak{flex-direction: row;}
+                                                            
+                                                               
+                                                              .aj{
+                                                                    
+                                                                    flex-direction: row;
+                                                                    height: 400px;
+                                                                }
+
+                                                                .ah{flex-direction: row;}
+                                                               
+                                                            .ab{flex-direction: row;}}
+                                                          
+                                                            @media only screen and (min-width: 1200px) {
+                                                               
+                                                                     
+                
                                                                     
                                                                 }
-                                                            }                                                          
-
+                                                                                                                
