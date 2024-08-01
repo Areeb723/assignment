@@ -1,303 +1,186 @@
- *{background-color: black;}
- .nav{display: flex;
-background-color: black;}
-
-
-
-.nav ul{display: flex;
-list-style: none;
-gap: 10px ;}
-
-.nav ul li{position: relative;
-    right: -500px;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-}
-.nav img{width: 200px;
-}
-
-.nav li:hover {background-color: white;
-color: black;
-border-radius: 100px;
-}
-.img{
-   
-    
-   margin-right: 70px;
-   margin-left: 75px;
-}
- p {color: white;
-    font-size: 16px;
-    font-family: "Montserrate";
-    padding-right: 150px;
-    text-align: justify;
-    font-weight: 100;
-}
-
-#head{color: white;
-    font-size: 30px;
-    font-weight: 900;
+.back {
+  margin: 30px auto;
+    max-width: 1000px;
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     font-family: sans-serif;}
 
-    .ab{display: flex;
-        margin-top: 30px;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
 
-      .monkey1{display: flex;
-    flex-direction: column;
-justify-content: space-between;
-gap: 10px 10px;
-
-}  
-
-.monkey2{display: flex;
-    flex-direction: column;
-justify-content: space-between;
-
-}
-       
-
-.monkey1 img{height: 150px;
-width: 150px;
+.box {
+  width: calc(20%);
+  margin: 20px 20px;
+  background: #cfcece;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  line-height: 200px;
 }
 
 
-.monkey2 img{height: 150px;
-width: 150px;}
+.blue {
+  background-color: rgba(56, 207, 248, 0.5);
+}
 
 
-#ac {
-    color: #bfc500;
-    font-size: larger;
-    font-family: "Montserrate";
-    margin-left: 30px;}
-
-    #ac+p {
-        color: white;
-        margin-left: 30px;
-        font-size: larger;
-        font-family: "Montserrate";}
-
-        .ad {
-            display: flex;
-            justify-content: space-between;
-            margin-left: 30px;
-            margin-right: 30px;}
-
-            #adc {
-                color: white;
-                font-family: "Montserrate";}
+.scalex {
+  transform: scalex(1);
+  transition: transform 0.5s ease;
+}
 
 
-                #adc+p {
-                    color: white;
-                    font-family: "Montserrate";
-                    font-size: large;
-                    font-weight: 80;}
+.box:hover .scalex {
+  transform: scalex(2);
+  }
+.red{background-color: rgba(255, 0, 0, 0.603);}
+  .scaleY{transform: scaleY(1);
+  transition: all 1s ease;}
+
+  .box:hover .scaleY{transform: scaleY(2);}
 
 
-                    .ae {
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-around;
-                        background-color: #bfc500;
-                        height: 70px;
-                        padding: 1.3rem !important;
-                        margin-left: 30px;
-                        margin-right: 30px;}
+  .scale{transform: scale(1);
+  transition: all 1s ease;}
 
-                        #aa {
-                            flex-basis: 200px;
-                            color: black;
-                            background-color: #bfc500;
-                            font-weight: 900;
-                            font-family: sans-serif;
-                            font-size: larger;}
+  .box:hover .scale{transform: scale(2);}
 
-                            #af:hover{background-color: white;
-                            color: black;}
-
-                            #gr {
-                                flex-basis: 350px;
-                                color:black;
-                                background-color: #bfc500;
-                            }
+.green{background-color: rgba(0, 128, 0, 0.521);}
 
 
-                            #af {
-                                flex-basis: 200px;
-                                color: #bfc500;
-                                background-color: black;
-                                font-weight: 600;
-                                text-align: center;
-                                border-radius: 8px;
-                                border: 0px;
-                                font-size: larger;
-                                height: 75px;
-                                width: 240px;}
 
-                                .ah {
-                                    display: flex;
-                                    margin: 30px;
-                                    justify-content: space-between;}
-                                    #ah1 {
-                                        flex-basis: 650px;
-                                        word-spacing: 3px;
-                                        line-height: 25px;}
+.translateX {transform: translateX(1);
+  transition: all 1s ease;}
 
-                                        #ah>p>a {
-                                            color: #bfc500;
-                                        }
-                                        .ah>img {
-                                            width: 340px;}
+  .box:hover .translateX{transform: translateX(4em);}
 
-                                            .ag {
-                                                display: flex;
-                                                flex-direction: column;
-                                                margin: 30px;
-                                            }
+.dark{background-color: rgba(0, 19, 128, 0.521);}
 
-                                            #ag{background-color: black;
-                                            color: white;
-                                        font-size: large;}
 
-                                            .ai {
-                                                display: flex;
-                                                justify-content: space-between;
-                                                margin: 60px;}
+.translateY{transform:translateY(1);
+  transition: all 1s ease;}
 
-                                                .ek {
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                    width: 150px;
-                                                }
-                                                .ek>img {
-                                                    width: 100px;}
+  .box:hover .translateY{transform: translateY(4em);}
 
-                                                    .ek>p {
-                                                        flex-basis: 100px;
-                                                        font-size: large;
-                                                        font-weight: 100;
-                                                        
-                                                    }
-                                                    #dusra {
-                                                        margin-top: 40px;
-                                                    }
+.yellow{background-color: rgba(255, 239, 13, 0.596);}
 
-                                                    .aj {
-                                                        display: flex;
-                                                        margin: 30px;
-                                                        justify-content: space-between;}
 
-                                                        #ttt {
-                                                            flex-basis: 700px;
-                                                            word-spacing: 5px;
-                                                        }
+.translate{transform: translate(1);
+  transition: transform 1s ease;}
 
-                                                        .aj>img {
-                                                            width: 162px;
-                                                        }
+  .box:hover .translate{transform: translate(4em);}
 
-                                                        .rrr {
-                                                            display: flex;
-                                                            flex-direction: column;
-                                                            margin: 30px;
-                                                            word-spacing: 5px;}
+.pink{background-color: rgba(255, 7, 222, 0.555);}
 
-                                                            .rrr>h1+p+p {
-                                                                width: 850px;
-                                                            }
-                                                            .ak {
-                                                                display: flex;
-                                                            }
 
-                                                            .ak>img {
-                                                                height: 350px;
-                                                                background-color: #bfc500;
-                                                            }
+.matrix {
+  transform: matrix(1, 1, 1, 1);
+  transition: transform 0.5s ease;
+}
 
-                                                            .q {
-                                                                display: flex;
-                                                                margin-left: 50px;
-                                                                margin-right: 50px;
-                                                            }
-                                                            .q>h1 {
-                                                                font-size: 16px;
-                                                                color: #bfc500;
-                                                                margin-right: 60px;
-                                                            }
+.box:hover .matrix {
+  transform: matrix(1, -1, 0, 1, 0, 0);
+}
 
-                                                            .q>p {
-                                                                text-align: left;
-                                                            }
-                                                            b{color: white;}
-    
-                                                                
-                                                             
-                                                            @media only screen and (min-width: 600px) 
-                                                             { body{width: 1000px;
-                                                            
-                                                        }
-                                                
-                                                                #adc img{height: 800px;}
-                                                                .ai{display: flex;
-                                                                flex-direction: column;}
-                                                            }
+.a{background-color: rgba(0, 255, 255, 0.582);}
 
-                                                        
+.rotate {
+  transform: rotate(0);
+  transition: transform 0.5s ease;
+}
 
-                                                        .aj{display: flex;
-                                                            flex-direction: column;
-                                                            height: 600px;
-                                                        }
-                                                        .ah{display: flex;
-                                                        flex-direction: column;}
+.box:hover .rotate {
+  transform: rotate(270deg);
+}
+.b{background-color: chartreuse;}
 
-                                                        .ak {flex-direction: column;}
-                                                        .ak img{width: 400px;
-                                                        }
-                                                        .ab{flex-direction: column;
-                                                        }
-                                                            
-                                                          
-                                                            @media only screen and (min-width: 768px) {
-                                                              
-                                                                } body{flex-direction: column;
-                                                                justify-content: center;
-                                                            align-items: center;}
-                                                            
-                                                            
-                                                            
-                                                            @media only screen and (min-width: 992px) {
-                                                               body{width: 1300px;}
+.skew {
+  transform: skew(1, 1);
+  transition: transform 0.5s ease;
+}
 
-                                                               .ai{flex-direction: row;
-                                                            align-items: center;
-                                                        justify-content: center;
-                                                    gap: 100px;}
+.box:hover .skew {
+  transform: skew(30deg, 20deg);
 
-                                                               .ai p{width: 100px;
-                                                                margin: 0px;}
-                                                              .ak{flex-direction: row;}
-                                                            
-                                                               
-                                                              .aj{
-                                                                    
-                                                                    flex-direction: row;
-                                                                    height: 400px;
-                                                                }
 
-                                                                .ah{flex-direction: row;}
-                                                               
-                                                            .ab{flex-direction: row;}}
-                                                          
-                                                            @media only screen and (min-width: 1200px) {
-                                                               
-                                                                     
-                
-                                                                    
-                                                                }
-                                                                                                                
+
+}
+.c{background-color: rgb(0, 26, 255);}
+
+
+.skewX {
+  transform: skewX(1);
+  transition: transform 0.5s ease;
+}
+
+.box:hover .skewX {
+  transform: skewX(30deg);
+
+}
+.d{background-color: rgb(255, 0, 0);}
+
+
+.skewY {
+  transform: skewY(1);
+  transition: transform 0.5s ease;
+}
+
+.box:hover .skewY {
+  transform: skewY(30deg);
+
+}
+.e{background-color: rgb(0, 255, 106);}
+
+.matrix3d {
+  transform: matrix3d(1);
+  transition: transform 0.5s ease;
+}
+
+.box:hover .matrix3d {
+  transform: matrix3d(0.8535533905932737, 0.4999999999999999, 0.14644660940672619, 0, -0.4999999999999999, 0.7071067811865476, 0.4999999999999999, 0, 0.14644660940672619, -0.4999999999999999, 0.8535533905932737, 0, 22.62994231491119, -20.3223304703363, 101.3700576850888, 1)
+}
+.f{background-color: rgb(255, 251, 0);}
+
+.translate3d {
+  transform: translate3d(1px, 1px, 1);
+  transition: transform 0.5s ease;
+}
+
+.box:hover .translate3d {
+  transform: translate3d(1px, 1px, 50px) rotate3d(3, 2, 2, 90deg);
+
+}
+.g{background-color: rgb(255, 123, 0);}
+
+.rotateY {
+  transform: perspective(1) scaleZ(1) rotateY(0deg);
+  transition: transform 0.5s ease;
+}
+
+.box:hover .rotateY {
+  transform: perspective(500px) scaleZ(2) rotateY(45deg);
+
+}
+.h{background-color: rgb(174, 0, 255);}
+
+.rotateX {
+  transform: perspective(1) scaleZ(1) rotateX(0deg);
+  transition: transform 0.5s ease;
+}
+
+.box:hover .rotateX {
+  transform: perspective(500px) scaleZ(2) rotateX(45deg);
+
+}
+.i{background-color: rgb(255, 0, 200);}
+
+.translateZ {
+  transform: translateZ(1px);
+  transition: transform 0.5s ease;
+}
+
+.box:hover .translateZ {
+  transform: rotate3d(3, 2, 2, 90deg) translateZ(50px);
+
+}
+.j{background-color: rgb(0, 0, 0);}
